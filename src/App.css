@@ -3,26 +3,30 @@
 } */
 
 .circle {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
-  transition: width 3s, height 3s;
+}
+.circleSmall {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
 }
 .yellow {
   background-color: #CDB900;
-}
-.bigCircle {
-  width: 2000px;
-  height: 2000px;
+  color: black;
 }
 .blue {
   background-color: #009CCD;
+  color: black;
 }
-.green {
-  background-color: #00CD39;
+.dark {
+  background-color: #4B394E;
+  color: white;
 }
 .white {
   background-color: white;
+  color: black;
 }
 .tuffyBold {
   font-family: 'tuffybold', sans-serif;
