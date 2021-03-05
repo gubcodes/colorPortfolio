@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Else(props) {
-  //passed in 
+  // resume (work history), links, codepen, gibbolune mural, music?, videos?, posters?, shirts?
   
   return (
     <div>
