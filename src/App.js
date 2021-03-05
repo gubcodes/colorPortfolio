@@ -1,36 +1,30 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import './assets/fonts/fonts.css';
-import Home from './components/Home';
 import Navbar from './components/Navbar';
 
 function App() {
   const [backgroundColor, setBackgroundColor] = useState('white');
-  const [home, setHome] = useState(true);
-  const [page, setPage] = useState('develop');
+
 
   function changeBackground(value) {
     setBackgroundColor(value);
   };
 
-  function toggleHome(value) {
-    setHome(value);
-  };
-
-  function changePage(value) {
-    setHome(false);
-    setPage(value);
-  };
 
   return (
-    <div className={`w-screen h-screen ${backgroundColor}`}>
-      {
+    <div className={`w-screen min-h-screen ${backgroundColor}`}>
+      <Router>
+      <Navbar changeBackground={changeBackground} />
+      </Router>
+      {/* {
         home
           ?
-          <Home changeBackground={changeBackground} toggleHome={toggleHome} changePage={changePage} />
+          <Home changeBackground={changeBackground} toggleHome={toggleHome} changePage={changePage} home={home}/>
           :
-          <Navbar changeBackground={changeBackground} toggleHome={toggleHome} page={page} />
-      }
+          <Navbar changeBackground={changeBackground} toggleHome={toggleHome} changePage={changePage} page={page} home={home} />
+      } */}
     </div>
   );
 }

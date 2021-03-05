@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .test-XS {
+      background-image: url('./assets/images/design/test-XS.png');
+    }
+    .test-SM {
+      background-image: url('./assets/images/design/test-SM.png');
+    }
+  }
+}
