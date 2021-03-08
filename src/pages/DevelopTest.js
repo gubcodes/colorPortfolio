@@ -1,12 +1,12 @@
-import DesignTitle from '../components/DesignTitle';
+import DevelopTitle from '../components/DevelopTitle';
 
-function DesignTest() {
+function DevelopTest() {
   const image = 'test';
   const title = 'TEST PROJECT';
 
   return (
     <div className="w-screen grid-cols-12 text-center tuffyBold tracking-widest">
-      <DesignTitle />
+      <DevelopTitle />
       <div className={`card bg-contain ${image}-XS sm:${image}-SM`}>
         </div>
         <div className="text-3xl mt-5 pb-5 ml-5 mr-5">
@@ -28,4 +28,4 @@ function DesignTest() {
   )
 }
 
-export default DesignTest;
+export default DevelopTest;

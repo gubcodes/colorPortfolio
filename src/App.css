@@ -20,7 +20,6 @@
 .dark {
   background-color: #4B394E;
   color: white;
-  /* border-color: white; */
 }
 .white {
   background-color: white;
@@ -28,6 +27,12 @@
 }
 .tuffyBold {
   font-family: 'tuffybold', sans-serif;
+}
+.tuffyItalic {
+  font-family: 'tuffyitalic', sans-serif;
+}
+.tuffyRegular {
+  font-family: 'tuffyregular', sans-serif;
 }
 .card {
   border: solid black 12px;
