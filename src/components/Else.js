@@ -7,7 +7,7 @@ function Else() {
       // resume (work history), links, codepen, gibbolune mural, music?, videos?, posters?, shirts?
       {image: "test", title: "TEST PROJECT", page: "/else/test"},
       {image: "resume", title: "RESUME", page: "/else/resume"},
-      {image: "gibbolune", title: "GIBBOLUNE MURAL", page: "/else/gibbolune"},
+      {image: "gibbolune", title: "GIBBOLUNE", page: "/else/gibbolune"},
       {image: "hodgepodge", title: "HODGEPODGE", page: "/else/hodgepodge"},
       {image: "contact", title: "CHAT WITH ME", page: "/else/contact"},
     ];
@@ -23,6 +23,6 @@ function Else() {
         </div>
       </div>
     )
-  }
+  };
   
   export default Else;
