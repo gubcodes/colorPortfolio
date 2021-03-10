@@ -6,9 +6,10 @@ function Design() {
   const projects = [
     // portfolio2
     {image: "test", title: "TEST PROJECT", page: "/design/test"},
-    {image: "portolio3", title: "THIS PORTFOLIO", page: "/design/portfolio3"},
+    {image: "portfolio3", title: "THIS PORTFOLIO", page: "/design/portfolio3"},
+    {image: "portfolio2", title: "OLD PORTFOLIO", page: "/design/portfolio2"},
     {image: "porchswing", title: "PORCHSWING", page: "/design/porchswing"},
-    {image: "worthekik", title: "WORTHEKIK", page: "/design/worthekik"},
+    {image: "worthekik", title: "WORTHEKIK ELEKTRONIK", page: "/design/worthekik"},
   ];
   
   return (
@@ -22,6 +23,6 @@ function Design() {
       </div>
     </div>
   )
-}
+};
 
 export default Design;

@@ -11,8 +11,9 @@ function Develop() {
     {image: "porchswing", title: "PORCHSWING", page: "/develop/porchswing"},
     {image: "timetogether", title: "TIMETOGETHER", page: "/develop/timetogether"},
     {image: "mars", title: "LAST WEEK ON MARS", page: "/develop/mars"},
-    {image: "cat", title: "CAT FACTS!", page: "/develop/catfacts"},
+    {image: "catfacts", title: "CAT FACTS!", page: "/develop/catfacts"},
     {image: "recipeazy", title: "RECIPEAZY", page: "/develop/recipeazy"},
+    {image: "kast", title: "KAST APP", page: "/develop/kast"},
     {image: "codepen", title: "CODEPEN", page: "/develop/codepen"},
     {image: "github", title: "GITHUB", page: "/develop/github"},
   ];
@@ -28,6 +29,6 @@ function Develop() {
       </div>
     </div>
   )
-}
+};
 
 export default Develop;

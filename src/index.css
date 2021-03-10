@@ -10,5 +10,235 @@
     .test-SM {
       background-image: url('./assets/images/design/test-SM.png');
     }
+    .test-MD {
+      background-image: url('./assets/images/design/test-MD.png');
+    }
+    .test-LG {
+      background-image: url('./assets/images/design/test-LG.png');
+    }
+    .test-XL {
+      background-image: url('./assets/images/design/test-XL.png');
+    }
+  }
+  @variants responsive {
+    .portfolio3-XS {
+      background-image: url('./assets/images/design/portfolio3-XS.png');
+    }
+    .portfolio3-SM {
+      background-image: url('./assets/images/design/portfolio3-SM.png');
+    }
+    .portfolio3-MD {
+      background-image: url('./assets/images/design/portfolio3-MD.png');
+    }
+    .portfolio3-LG {
+      background-image: url('./assets/images/design/portfolio3-LG.png');
+    }
+    .portfolio3-XL {
+      background-image: url('./assets/images/design/portfolio3-XL.png');
+    }
+  }
+  @variants responsive {
+    .porchswing-XS {
+      background-image: url('./assets/images/design/porchswing-XS.png');
+    }
+    .porchswing-SM {
+      background-image: url('./assets/images/design/porchswing-SM.png');
+    }
+    .porchswing-MD {
+      background-image: url('./assets/images/design/porchswing-MD.png');
+    }
+    .porchswing-LG {
+      background-image: url('./assets/images/design/porchswing-LG.png');
+    }
+    .porchswing-XL {
+      background-image: url('./assets/images/design/porchswing-XL.png');
+    }
+  }
+  @variants responsive {
+    .porchswing-XS {
+      background-image: url('./assets/images/design/porchswing-XS.png');
+    }
+    .porchswing-SM {
+      background-image: url('./assets/images/design/porchswing-SM.png');
+    }
+    .porchswing-MD {
+      background-image: url('./assets/images/design/porchswing-MD.png');
+    }
+    .porchswing-LG {
+      background-image: url('./assets/images/design/porchswing-LG.png');
+    }
+    .porchswing-XL {
+      background-image: url('./assets/images/design/porchswing-XL.png');
+    }
+  }
+  @variants responsive {
+    .portfolio2-XS {
+      background-image: url('./assets/images/design/portfolio2-XS.png');
+    }
+    .portfolio2-SM {
+      background-image: url('./assets/images/design/portfolio2-SM.png');
+    }
+    .portfolio2-MD {
+      background-image: url('./assets/images/design/portfolio2-MD.png');
+    }
+    .portfolio2-LG {
+      background-image: url('./assets/images/design/portfolio2-LG.png');
+    }
+    .portfolio2-XL {
+      background-image: url('./assets/images/design/portfolio2-XL.png');
+    }
+  }
+  @variants responsive {
+    .worthekik-XS {
+      background-image: url('./assets/images/design/worthekik-XS.png');
+    }
+    .worthekik-SM {
+      background-image: url('./assets/images/design/worthekik-SM.png');
+    }
+    .worthekik-MD {
+      background-image: url('./assets/images/design/worthekik-MD.png');
+    }
+    .worthekik-LG {
+      background-image: url('./assets/images/design/worthekik-LG.png');
+    }
+    .worthekik-XL {
+      background-image: url('./assets/images/design/worthekik-XL.png');
+    }
+  }
+  @variants responsive {
+    .timetogether-XS {
+      background-image: url('./assets/images/develop/timetogether-XS.png');
+    }
+    .timetogether-SM {
+      background-image: url('./assets/images/develop/timetogether-SM.png');
+    }
+    .timetogether-MD {
+      background-image: url('./assets/images/develop/timetogether-MD.png');
+    }
+    .timetogether-LG {
+      background-image: url('./assets/images/develop/timetogether-LG.png');
+    }
+    .timetogether-XL {
+      background-image: url('./assets/images/develop/timetogether-XL.png');
+    }
+  }
+  @variants responsive {
+    .mars-XS {
+      background-image: url('./assets/images/develop/mars-XS.png');
+    }
+    .mars-SM {
+      background-image: url('./assets/images/develop/mars-SM.png');
+    }
+    .mars-MD {
+      background-image: url('./assets/images/develop/mars-MD.png');
+    }
+    .mars-LG {
+      background-image: url('./assets/images/develop/mars-LG.png');
+    }
+    .mars-XL {
+      background-image: url('./assets/images/develop/mars-XL.png');
+    }
+  }
+  @variants responsive {
+    .catfacts-XS {
+      background-image: url('./assets/images/develop/catfacts-XS.png');
+    }
+    .catfacts-SM {
+      background-image: url('./assets/images/develop/catfacts-SM.png');
+    }
+    .catfacts-MD {
+      background-image: url('./assets/images/develop/catfacts-MD.png');
+    }
+    .catfacts-LG {
+      background-image: url('./assets/images/develop/catfacts-LG.png');
+    }
+    .catfacts-XL {
+      background-image: url('./assets/images/develop/catfacts-XL.png');
+    }
+  }
+  @variants responsive {
+    .recipeazy-XS {
+      background-image: url('./assets/images/develop/recipeazy-XS.png');
+    }
+    .recipeazy-SM {
+      background-image: url('./assets/images/develop/recipeazy-SM.png');
+    }
+    .recipeazy-MD {
+      background-image: url('./assets/images/develop/recipeazy-MD.png');
+    }
+    .recipeazy-LG {
+      background-image: url('./assets/images/develop/recipeazy-LG.png');
+    }
+    .recipeazy-XL {
+      background-image: url('./assets/images/develop/recipeazy-XL.png');
+    }
+  }
+  @variants responsive {
+    .codepen-XS {
+      background-image: url('./assets/images/develop/codepen-XS.png');
+    }
+    .codepen-SM {
+      background-image: url('./assets/images/develop/codepen-SM.png');
+    }
+    .codepen-MD {
+      background-image: url('./assets/images/develop/codepen-MD.png');
+    }
+    .codepen-LG {
+      background-image: url('./assets/images/develop/codepen-LG.png');
+    }
+    .codepen-XL {
+      background-image: url('./assets/images/develop/codepen-XL.png');
+    }
+  }
+  @variants responsive {
+    .github-XS {
+      background-image: url('./assets/images/develop/github-XS.png');
+    }
+    .github-SM {
+      background-image: url('./assets/images/develop/github-SM.png');
+    }
+    .github-MD {
+      background-image: url('./assets/images/develop/github-MD.png');
+    }
+    .github-LG {
+      background-image: url('./assets/images/develop/github-LG.png');
+    }
+    .github-XL {
+      background-image: url('./assets/images/develop/github-XL.png');
+    }
+  }
+  @variants responsive {
+    .resume-XS {
+      background-image: url('./assets/images/develop/resume-XS.png');
+    }
+    .resume-SM {
+      background-image: url('./assets/images/develop/resume-SM.png');
+    }
+    .resume-MD {
+      background-image: url('./assets/images/develop/resume-MD.png');
+    }
+    .resume-LG {
+      background-image: url('./assets/images/develop/resume-LG.png');
+    }
+    .resume-XL {
+      background-image: url('./assets/images/develop/resume-XL.png');
+    }
+  }
+  @variants responsive {
+    .gibbolune-XS {
+      background-image: url('./assets/images/develop/gibbolune-XS.png');
+    }
+    .gibbolune-SM {
+      background-image: url('./assets/images/develop/gibbolune-SM.png');
+    }
+    .gibbolune-MD {
+      background-image: url('./assets/images/develop/gibbolune-MD.png');
+    }
+    .gibbolune-LG {
+      background-image: url('./assets/images/develop/gibbolune-LG.png');
+    }
+    .gibbolune-XL {
+      background-image: url('./assets/images/develop/gibbolune-XL.png');
+    }
   }
 }

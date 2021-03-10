@@ -6,6 +6,20 @@ import Else from './Else';
 import DesignTest from '../pages/DesignTest';
 import DevelopTest from '../pages/DevelopTest';
 import ElseTest from '../pages/ElseTest';
+import DevelopPortfolio3 from '../pages/DevelopPortfolio3';
+import DevelopPortfolio2 from '../pages/DevelopPortfolio2';
+import DevelopPorchswing from '../pages/DevelopPorchswing';
+import DesignPortfolio3 from '../pages/DesignPortfolio3';
+import DevelopTimeTogether from '../pages/DevelopTimeTogether';
+import DevelopMars from '../pages/DevelopMars';
+import DevelopCatFacts from '../pages/DevelopCatFacts';
+import DevelopRecipeazy from '../pages/DevelopRecipeazy';
+import DevelopCodepen from '../pages/DevelopCodepen';
+import DevelopGithub from '../pages/DevelopGithub';
+import DevelopKast from '../pages/DevelopKast';
+import DesignPorchswing from '../pages/DesignPorchswing';
+import DesignPortfolio2 from '../pages/DesignPortfolio2';
+import DesignWorthekik from '../pages/DesignWorthekik';
 
 function Navbar(props) {
   const [home, setHome] = useState(true);
@@ -64,17 +78,18 @@ function Navbar(props) {
             </nav>
             <div className="col-start-7 col-end-13 text-right mt-auto mb-auto flex">
               <div className="inline-grid grid-cols-4 w-full ml-4">
+                {/*  */}
                 <div className="col-start-1 col-end-2">
-                  <div className="circleSmall white" onClick={() => props.changeBackground('white')}></div>
+                  <div className="circleSmall dark" onClick={() => props.changeBackground('dark')}></div>
                 </div>
                 <div className="col-start-2 col-end-3">
-                  <div className="circleSmall yellow" onClick={() => props.changeBackground('yellow')}></div>
-                </div>
-                <div className="col-start-3 col-end-4">
                   <div className="circleSmall blue" onClick={() => props.changeBackground('blue')}></div>
                 </div>
+                <div className="col-start-3 col-end-4">
+                  <div className="circleSmall yellow" onClick={() => props.changeBackground('yellow')}></div>
+                </div>
                 <div className="col-start-4 col-end-5">
-                  <div className="circleSmall dark" onClick={() => props.changeBackground('dark')}></div>
+                  <div className="circleSmall white" onClick={() => props.changeBackground('white')}></div>
                 </div>
               </div>
             </div>
@@ -86,7 +101,21 @@ function Navbar(props) {
           <Route exact path="/develop"><Develop /></Route>
           <Route exact path="/else"><Else /></Route>
           <Route exact path="/design/test"><DesignTest /></Route>
+          <Route exact path="/design/portfolio3"><DesignPortfolio3 /></Route>
+          <Route exact path="/design/porchswing"><DesignPorchswing /></Route>
+          <Route exact path="/design/portfolio2"><DesignPortfolio2 /></Route>
+          <Route exact path="/design/worthekik"><DesignWorthekik /></Route>
           <Route exact path="/develop/test"><DevelopTest /></Route>
+          <Route exact path="/develop/portfolio3"><DevelopPortfolio3 /></Route>
+          <Route exact path="/develop/portfolio2"><DevelopPortfolio2 /></Route>
+          <Route exact path="/develop/porchswing"><DevelopPorchswing /></Route>
+          <Route exact path="/develop/timetogether"><DevelopTimeTogether /></Route>
+          <Route exact path="/develop/catfacts"><DevelopCatFacts /></Route>
+          <Route exact path="/develop/recipeazy"><DevelopRecipeazy /></Route>
+          <Route exact path="/develop/kast"><DevelopKast /></Route>
+          <Route exact path="/develop/codepen"><DevelopCodepen /></Route>
+          <Route exact path="/develop/github"><DevelopGithub /></Route>
+          <Route exact path="/develop/mars"><DevelopMars /></Route>
           <Route exact path="/else/test"><ElseTest /></Route>
         </Switch>
     </div>
