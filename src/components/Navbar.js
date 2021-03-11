@@ -20,6 +20,7 @@ import DevelopKast from '../pages/DevelopKast';
 import DesignPorchswing from '../pages/DesignPorchswing';
 import DesignPortfolio2 from '../pages/DesignPortfolio2';
 import DesignWorthekik from '../pages/DesignWorthekik';
+import ElseResume from '../pages/ElseResume';
 
 function Navbar(props) {
   const [home, setHome] = useState(true);
@@ -117,6 +118,7 @@ function Navbar(props) {
           <Route exact path="/develop/github"><DevelopGithub /></Route>
           <Route exact path="/develop/mars"><DevelopMars /></Route>
           <Route exact path="/else/test"><ElseTest /></Route>
+          <Route exact path="/else/resume"><ElseResume /></Route>
         </Switch>
     </div>
   );

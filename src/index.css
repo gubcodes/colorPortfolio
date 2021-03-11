@@ -241,4 +241,21 @@
       background-image: url('./assets/images/develop/gibbolune-XL.png');
     }
   }
+  @variants responsive {
+    .contact-XS {
+      background-image: url('./assets/images/else/contact-XS.png');
+    }
+    .contact-SM {
+      background-image: url('./assets/images/else/contact-SM.png');
+    }
+    .contact-MD {
+      background-image: url('./assets/images/else/contact-MD.png');
+    }
+    .contact-LG {
+      background-image: url('./assets/images/else/contact-LG.png');
+    }
+    .contact-XL {
+      background-image: url('./assets/images/else/contact-XL.png');
+    }
+  }
 }
