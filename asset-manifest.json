@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/colorPortfolio/static/css/main.1c7f2f74.chunk.css",
-    "main.js": "/colorPortfolio/static/js/main.60f22204.chunk.js",
-    "main.js.map": "/colorPortfolio/static/js/main.60f22204.chunk.js.map",
-    "runtime-main.js": "/colorPortfolio/static/js/runtime-main.a920472c.js",
-    "runtime-main.js.map": "/colorPortfolio/static/js/runtime-main.a920472c.js.map",
-    "static/js/2.47056f5b.chunk.js": "/colorPortfolio/static/js/2.47056f5b.chunk.js",
-    "static/js/2.47056f5b.chunk.js.map": "/colorPortfolio/static/js/2.47056f5b.chunk.js.map",
-    "static/js/3.f1490fb9.chunk.js": "/colorPortfolio/static/js/3.f1490fb9.chunk.js",
-    "static/js/3.f1490fb9.chunk.js.map": "/colorPortfolio/static/js/3.f1490fb9.chunk.js.map",
-    "index.html": "/colorPortfolio/index.html",
-    "static/css/main.1c7f2f74.chunk.css.map": "/colorPortfolio/static/css/main.1c7f2f74.chunk.css.map",
-    "static/js/2.47056f5b.chunk.js.LICENSE.txt": "/colorPortfolio/static/js/2.47056f5b.chunk.js.LICENSE.txt",
-    "static/media/external.4179844b.svg": "/colorPortfolio/static/media/external.4179844b.svg",
-    "static/media/fonts.css": "/colorPortfolio/static/media/vt323-regular-webfont.5a8783a9.woff"
+    "main.css": "/static/css/main.f7550cd6.chunk.css",
+    "main.js": "/static/js/main.60f22204.chunk.js",
+    "main.js.map": "/static/js/main.60f22204.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.53c59765.js",
+    "runtime-main.js.map": "/static/js/runtime-main.53c59765.js.map",
+    "static/js/2.47056f5b.chunk.js": "/static/js/2.47056f5b.chunk.js",
+    "static/js/2.47056f5b.chunk.js.map": "/static/js/2.47056f5b.chunk.js.map",
+    "static/js/3.f1490fb9.chunk.js": "/static/js/3.f1490fb9.chunk.js",
+    "static/js/3.f1490fb9.chunk.js.map": "/static/js/3.f1490fb9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f7550cd6.chunk.css.map": "/static/css/main.f7550cd6.chunk.css.map",
+    "static/js/2.47056f5b.chunk.js.LICENSE.txt": "/static/js/2.47056f5b.chunk.js.LICENSE.txt",
+    "static/media/external.4179844b.svg": "/static/media/external.4179844b.svg",
+    "static/media/fonts.css": "/static/media/vt323-regular-webfont.5a8783a9.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.a920472c.js",
+    "static/js/runtime-main.53c59765.js",
     "static/js/2.47056f5b.chunk.js",
-    "static/css/main.1c7f2f74.chunk.css",
+    "static/css/main.f7550cd6.chunk.css",
     "static/js/main.60f22204.chunk.js"
   ]
 }
