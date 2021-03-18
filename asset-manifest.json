@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/colorPortfolio/static/css/main.1c7f2f74.chunk.css",
-    "main.js": "/colorPortfolio/static/js/main.77f88499.chunk.js",
-    "main.js.map": "/colorPortfolio/static/js/main.77f88499.chunk.js.map",
+    "main.js": "/colorPortfolio/static/js/main.ed6b4094.chunk.js",
+    "main.js.map": "/colorPortfolio/static/js/main.ed6b4094.chunk.js.map",
     "runtime-main.js": "/colorPortfolio/static/js/runtime-main.a920472c.js",
     "runtime-main.js.map": "/colorPortfolio/static/js/runtime-main.a920472c.js.map",
-    "static/js/2.52a11538.chunk.js": "/colorPortfolio/static/js/2.52a11538.chunk.js",
-    "static/js/2.52a11538.chunk.js.map": "/colorPortfolio/static/js/2.52a11538.chunk.js.map",
+    "static/js/2.fff89b07.chunk.js": "/colorPortfolio/static/js/2.fff89b07.chunk.js",
+    "static/js/2.fff89b07.chunk.js.map": "/colorPortfolio/static/js/2.fff89b07.chunk.js.map",
     "static/js/3.f1490fb9.chunk.js": "/colorPortfolio/static/js/3.f1490fb9.chunk.js",
     "static/js/3.f1490fb9.chunk.js.map": "/colorPortfolio/static/js/3.f1490fb9.chunk.js.map",
     "index.html": "/colorPortfolio/index.html",
     "static/css/main.1c7f2f74.chunk.css.map": "/colorPortfolio/static/css/main.1c7f2f74.chunk.css.map",
-    "static/js/2.52a11538.chunk.js.LICENSE.txt": "/colorPortfolio/static/js/2.52a11538.chunk.js.LICENSE.txt",
+    "static/js/2.fff89b07.chunk.js.LICENSE.txt": "/colorPortfolio/static/js/2.fff89b07.chunk.js.LICENSE.txt",
     "static/media/external.4179844b.svg": "/colorPortfolio/static/media/external.4179844b.svg",
     "static/media/fonts.css": "/colorPortfolio/static/media/vt323-regular-webfont.5a8783a9.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.a920472c.js",
-    "static/js/2.52a11538.chunk.js",
+    "static/js/2.fff89b07.chunk.js",
     "static/css/main.1c7f2f74.chunk.css",
-    "static/js/main.77f88499.chunk.js"
+    "static/js/main.ed6b4094.chunk.js"
   ]
 }
